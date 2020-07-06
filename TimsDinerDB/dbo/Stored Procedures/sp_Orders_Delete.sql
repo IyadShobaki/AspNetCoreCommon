@@ -6,6 +6,6 @@ begin
 
 	delete 
 	from dbo.[Order]
-	where Id = @ID;
+	where Id = @Id;
 
 end
